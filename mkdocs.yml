@@ -1,0 +1,91 @@
+site_name: Sentinela Verde
+site_description: Monitoramento Geoespacial de Data Centers
+site_url: https://sentinela-verde.github.io/projeto-docs/
+repo_url: https://github.com/Sentinela-Verde/projeto-docs
+repo_name: Sentinela-Verde/projeto-docs
+edit_uri: ""
+copyright: Sentinela Verde — documentação acadêmica e técnica
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Usar tema escuro
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Usar tema claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Início: index.md
+  - Proposta: proposta.md
+  - Equipe:
+      - Visão geral: equipe/index.md
+      - Responsabilidades: equipe/responsabilidades.md
+      - Workstreams: equipe/workstreams.md
+      - Fluxo de trabalho: equipe/fluxo-trabalho.md
+      - Colaboração / Pair Programming: equipe/colaboracao.md
+  - Arquitetura:
+      - Visão geral: arquitetura/index.md
+      - Visão Conceitual: arquitetura/visao-conceitual.md
+      - Plataforma AWS: arquitetura/plataforma-aws.md
+      - Arquitetura de Dados: arquitetura/arquitetura-dados.md
+      - Modelagem e Análise: arquitetura/modelagem-analise.md
+  - Governança:
+      - Governança atual: governanca/index.md
+      - Histórico de Revisões:
+          - Visão geral: governanca/historico-revisoes.md
+          - Revisão e Estrutura Final: governanca/revisao-estrutura-final.md
+          - Versão Atualizada: governanca/versao-atualizada.md
+          - Guardrails para agentes: governanca/guardrails-agentes.md
+  - Entregáveis:
+      - Visão geral: entregaveis/index.md
+      - Sprint 1:
+          - Checkpoint: entregaveis/sprint-1.md
+          - Arquitetura Inicial: entregaveis/sprint-1-arquitetura-inicial.md
+      - Sprint 2: entregaveis/sprint-2.md
+      - Sprint 3: entregaveis/sprint-3.md
+      - Sprint 4: entregaveis/sprint-4.md
+      - Sprint 5: entregaveis/sprint-5.md
+      - Apresentação prévia: entregaveis/apresentacao-previa.md
+      - Apresentação final: entregaveis/apresentacao-final.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search:
+      lang: pt
+
+extra_css:
+  - assets/stylesheets/extra.css
+
