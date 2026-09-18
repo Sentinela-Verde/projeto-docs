@@ -84,6 +84,12 @@ Dessa forma, não analisamos apenas quanto a região do data center mudou, mas q
 
 A apresentação também mostra a expansão da amostra para **31 data centers e seus respectivos pares**, os resultados consolidados da análise e as limitações encontradas ao longo do estudo.
 
+### Referência visual — evolução temporal
+
+![Evolução temporal — Ascenty Vinhedo](../assets/images/ascenty_vinhedo_evolucao.png)
+
+*Exemplo de evolução temporal utilizado para comunicar a mudança de cobertura do solo ao longo dos períodos pré-obra, obra e pós-obra.*
+
 Na parte final apresentamos, de forma resumida, a arquitetura implementada, os pipelines de CI/CD e a governança utilizada no projeto.
 
 A arquitetura é apresentada como o mecanismo que permite transformar a metodologia desenvolvida pela equipe em uma solução reproduzível: o código é versionado no GitHub, validado pelos pipelines de CI/CD, empacotado em imagens Docker no ECR e executado de forma efêmera a partir do MWAA Serverless.
@@ -91,3 +97,20 @@ A arquitetura é apresentada como o mecanismo que permite transformar a metodolo
 Finalizamos mostrando que a análise por imagens de satélite representa apenas uma das dimensões possíveis do problema. Como evolução futura, destacamos temas que não são observados diretamente pelo satélite, como consumo de água, consumo de energia e ruído operacional.
 
 Durante os dias 15, 16 e 17/09, a apresentação passou por ajustes finais de narrativa, simplificação dos slides e revisão dos resultados para adequar todo o conteúdo ao limite de aproximadamente 15 minutos da apresentação.
+
+## Referências visuais e relacionadas
+
+![Arquitetura AWS](../assets/images/Arquitetura_AWS.png)
+
+*Arquitetura AWS consolidada utilizada na documentação final do projeto.*
+
+- [Arquitetura atual](../arquitetura/index.md)
+- [Sprint 5 publicada no GitHub Pages](https://sentinela-verde.github.io/projeto-docs/entregaveis/sprint-5/)
+- [Fonte Markdown da Sprint 5](https://github.com/Sentinela-Verde/projeto-docs/blob/main/docs/entregaveis/sprint-5.md)
+- [Documentação completa no GitHub Pages](https://sentinela-verde.github.io/projeto-docs/)
+- [Repositório `pipeline-dados`](https://github.com/Sentinela-Verde/pipeline-dados) — implementação científica integrada e base da metodologia final.
+- [Repositório `modelo-imagens-satelite`](https://github.com/Sentinela-Verde/modelo-imagens-satelite) — experimentos, validações e evolução da modelagem geoespacial.
+- [Repositório `projeto-docs`](https://github.com/Sentinela-Verde/projeto-docs) — fonte da documentação pública.
+- [Lucid — Arquitetura AWS](https://lucid.app/lucidchart/dcfc98c9-24cd-4f84-9ea1-5b53f141a5f1/edit)
+- [Lucid — Arquitetura de Engenharia de Dados](https://lucid.app/lucidchart/d8f69c0c-1a9f-4b8c-b99d-56c7ca8f35a3/edit)
+- [Lucid — Ciclo de Vida das Aplicações](https://lucid.app/lucidchart/4d3ccf8c-38b7-4a9a-a9f8-412432af2207/edit)
