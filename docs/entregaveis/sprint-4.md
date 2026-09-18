@@ -35,9 +35,13 @@ A inferência em lote passou a gerar mapas classificados e indicadores quantitat
 
 ## 5. Dashboard de resultados
 
-O dashboard ainda não estava finalizado. Nesta sprint deixamos estruturadas as principais saídas que o alimentariam: classificações das imagens, percentuais das classes de cobertura e dados socioeconômicos.
+Nesta sprint também consolidamos um **dashboard em Power BI** para apresentar o panorama dos data centers analisados no Brasil.
 
-A consolidação da visualização ficou para a sprint seguinte.
+A visão reúne filtros por estado, operadora, ano de operação e status, além de indicadores como quantidade de data centers, distribuição geográfica, capacidade construída, área construída e perfil operacional.
+
+No recorte atualmente publicado, o dashboard apresenta **242 data centers**, distribuídos em **18 estados** e **103 operadoras**, com **5.803,70 MW** de capacidade construída e **479.087 m²** de white space construído.
+
+[Consultar dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODIwOGFkN2YtYjg4Zi00YjM5LWI0OTYtZmU0MGYyYTZlOWE2IiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
 
 ## Referências visuais e relacionadas
 
@@ -49,6 +53,7 @@ A consolidação da visualização ficou para a sprint seguinte.
 *Visão conceitual consolidada do fluxo de dados do Sentinela Verde.*
 
 - [Arquitetura atual](../arquitetura/index.md)
+- [Dashboard — Power BI](https://app.powerbi.com/view?r=eyJrIjoiODIwOGFkN2YtYjg4Zi00YjM5LWI0OTYtZmU0MGYyYTZlOWE2IiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
 - [Sprint 4 publicada no GitHub Pages](https://sentinela-verde.github.io/projeto-docs/entregaveis/sprint-4/)
 - [Fonte Markdown da Sprint 4](https://github.com/Sentinela-Verde/projeto-docs/blob/main/docs/entregaveis/sprint-4.md)
 - [Repositório `modelo-imagens-satelite`](https://github.com/Sentinela-Verde/modelo-imagens-satelite) — modelagem geoespacial e experimentos de classificação.
