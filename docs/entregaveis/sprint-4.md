@@ -44,6 +44,12 @@ Durante a sprint também ampliamos o conjunto de áreas utilizadas no desenvolvi
 
 A inferência em lote passou a gerar mapas classificados para as imagens processadas, permitindo transformar o dado raster em indicadores quantitativos que poderiam ser comparados ao longo do tempo.
 
+### Referência visual — pipeline do modelo
+
+![Pipeline de modelagem](../assets/images/05_pipeline_modelo.png)
+
+*Pipeline de modelagem utilizado para conectar dados espectrais, classificação e geração dos indicadores.*
+
 ## 5. Dashboard de resultados
 
 O dashboard ainda não estava finalizado ao término desta sprint.
@@ -51,3 +57,20 @@ O dashboard ainda não estava finalizado ao término desta sprint.
 O principal trabalho realizado nesta etapa foi preparar as saídas que alimentariam a visualização: classificações das imagens, percentuais das classes de cobertura do solo e dados socioeconômicos associados aos locais analisados.
 
 Com essas informações estruturadas, a implementação e consolidação do dashboard ficaram para a sprint seguinte.
+
+## Referências visuais e relacionadas
+
+!!! info
+    A arquitetura abaixo representa a visão consolidada na documentação final e é incluída como referência de evolução. Ela não deve ser interpretada como um retrato exato de todos os componentes já disponíveis em 07/09.
+
+![Arquitetura conceitual](../assets/images/Arquitetura_Conceitual.png)
+
+*Visão conceitual consolidada do fluxo de dados do Sentinela Verde.*
+
+- [Arquitetura atual](../arquitetura/index.md)
+- [Sprint 4 publicada no GitHub Pages](https://sentinela-verde.github.io/projeto-docs/entregaveis/sprint-4/)
+- [Fonte Markdown da Sprint 4](https://github.com/Sentinela-Verde/projeto-docs/blob/main/docs/entregaveis/sprint-4.md)
+- [Repositório `modelo-imagens-satelite`](https://github.com/Sentinela-Verde/modelo-imagens-satelite) — modelagem geoespacial e experimentos de classificação.
+- [Repositório `data-pipeline-model`](https://github.com/Sentinela-Verde/data-pipeline-model) — implementação integrada anterior das etapas de extração, transformação e modelagem.
+- [Repositório `modulos-terraform`](https://github.com/Sentinela-Verde/modulos-terraform) — módulos de infraestrutura utilizados na evolução da plataforma.
+- [Lucid — Arquitetura de Engenharia de Dados](https://lucid.app/lucidchart/d8f69c0c-1a9f-4b8c-b99d-56c7ca8f35a3/edit)
